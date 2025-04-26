@@ -1,0 +1,80 @@
+.carreer-conatainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-padding: 30px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.carreer-conatainer.dark {
+  color: white;
+}
+
+.carreer-conatainer::-webkit-scrollbar {
+  display: none;
+}
+.carreer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+.carreer-text > h1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.carreer-text > h2 {
+  font-weight: 800;
+}
+
+.cards-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+
+  width: 400px;
+  height: 400px;
+}
+.card-image > .img-box {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+  bottom: 0;
+  cursor: pointer;
+
+  border-radius: 30px;
+}
+
+.card-image > .img-box > img {
+  width: 100%;
+  height: 100%;
+}
+.card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 2rem;
+  width: 50%;
+}
+
+.card-details > .card-title > h2,
+span {
+  font-weight: 800;
+}
+
+.cards-description > p {
+  width: 500px;
+  text-align: justify;
+  line-height: 2.5rem;
+}

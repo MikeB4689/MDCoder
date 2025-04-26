@@ -1,0 +1,32 @@
+.clipPatContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+}
+
+.cirlcePath {
+  position: fixed;
+  width: 400px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: rgb(56, 5, 5);
+}
+
+.clipBtn {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: blue;
+}

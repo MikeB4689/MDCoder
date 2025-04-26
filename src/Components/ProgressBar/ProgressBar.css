@@ -1,0 +1,59 @@
+.progress-container {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+}
+
+.outer {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  padding: 30px;
+  box-shadow: -1px 5px 25px black, -3px 1px 10px black;
+  position: relative;
+  transition: 0.5s ease;
+}
+
+.outer.dark {
+  box-shadow: -1px 5px 25px rgb(187, 186, 186), -3px 1px 10px rgb(77, 73, 73);
+}
+
+.outer.dark > .inner {
+  box-shadow: -1px 5px 25px rgb(32, 30, 30), -3px 1px 10px rgb(36, 33, 33);
+}
+
+.outer.dark > .inner > h2 {
+  color: white;
+  text-shadow: 1px 1px 35px white;
+}
+.inner {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -1px 5px 0px black, 3px 3px 5px black;
+}
+.inner > h2 {
+  font-weight: 800;
+}
+
+svg {
+  cursor: pointer;
+  position: absolute;
+}
+
+circle {
+  fill: none;
+  stroke: url(#linearGradient);
+  stroke-width: 30px;
+  stroke-linecap: round;
+}
