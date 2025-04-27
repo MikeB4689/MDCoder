@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MDCoder.git/static/css/main.3667b308.css",
+    "main.js": "/MDCoder.git/static/js/main.cca25d2b.js",
+    "static/media/video1.mp4": "/MDCoder.git/static/media/video1.1e41d7f63f71f3eff516.mp4",
+    "static/media/profile.jpg": "/MDCoder.git/static/media/profile.e7fee2325b681e80ac4e.jpg",
+    "static/media/Resume.pdf": "/MDCoder.git/static/media/Resume.5954c63cc3d2a4270957.pdf",
+    "index.html": "/MDCoder.git/index.html",
+    "main.3667b308.css.map": "/MDCoder.git/static/css/main.3667b308.css.map",
+    "main.cca25d2b.js.map": "/MDCoder.git/static/js/main.cca25d2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3667b308.css",
+    "static/js/main.cca25d2b.js"
+  ]
+}
