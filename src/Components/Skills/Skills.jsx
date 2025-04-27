@@ -51,6 +51,7 @@ const Skills = ({ data, addClass, setIndex, index }) => {
 
           return (
             <motion.div
+              key={el.title}
               variants={staggerSkillsChild}
               className="progress-container-outer"
             >

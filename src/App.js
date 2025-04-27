@@ -1,4 +1,4 @@
-git import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar";
 import "./App.css";
 import Home from "./Components/Home/Home";
 import { useEffect, useRef, useState } from "react";
