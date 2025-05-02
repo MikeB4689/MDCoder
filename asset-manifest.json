@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MDCoder/static/css/main.e96f3fb9.css",
-    "main.js": "/MDCoder/static/js/main.5d86bd4e.js",
+    "main.css": "/MDCoder/static/css/main.b09c7308.css",
+    "main.js": "/MDCoder/static/js/main.18b59ed7.js",
     "static/media/video1.mp4": "/MDCoder/static/media/video1.1e41d7f63f71f3eff516.mp4",
     "static/media/profile.jpg": "/MDCoder/static/media/profile.e7fee2325b681e80ac4e.jpg",
     "index.html": "/MDCoder/index.html",
-    "main.e96f3fb9.css.map": "/MDCoder/static/css/main.e96f3fb9.css.map",
-    "main.5d86bd4e.js.map": "/MDCoder/static/js/main.5d86bd4e.js.map"
+    "main.b09c7308.css.map": "/MDCoder/static/css/main.b09c7308.css.map",
+    "main.18b59ed7.js.map": "/MDCoder/static/js/main.18b59ed7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e96f3fb9.css",
-    "static/js/main.5d86bd4e.js"
+    "static/css/main.b09c7308.css",
+    "static/js/main.18b59ed7.js"
   ]
 }
